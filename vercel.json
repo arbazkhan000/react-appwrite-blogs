@@ -1,0 +1,25 @@
+{
+    "routes": [
+        {
+            "src": "/blog/update/.*",
+            "dest": "/"
+        },
+        {
+            "src": "/blog/create",
+            "dest": "/"
+        },
+        {
+            "src": "/blog/.*",
+            "dest": "/"
+        },
+        {
+            "src": "/.*",
+            "dest": "/"
+        },
+        {
+            "src": "/(.*)",
+            "status": 404,
+            "dest": "/404.html" 
+        }
+    ]
+}
